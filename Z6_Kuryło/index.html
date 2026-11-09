@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="title" content="Formularz Kuryło">
+        <meta name="description" content="Strona z formularzem">
+        <meta name="keywords" content="formularz, dane">
+        <meta name="creation_date" content="02.11.2026">
+        <meta name="author" content="Paweł Kuryło">
+        <title>Szachownica Kuryło</title>
+        <link rel="icon" href="ikona_PK.png" type="image/png">
+    </head>
+
+    <body>
+        <h1>Zadanie 1.</h1>
+        <h2>Języki</h2>
+        <label for="languages">Wybierz język: </label>
+        <br>
+        <select id="language" name="language" size="5" multiple="multiple">
+            <option value="eng">EN English (angielski)</option>
+            <option value="deu">DE Deutsch (niemiecki)</option>
+            <option value="fre">FR français (francuski)</option>
+            <option value="spa">ES español (hiszpański)</option>
+            <option value="ita">IT italiano (włoski)</option>
+        </select>
+        <br>
+        <hr>
+
+        <h1>Zadanie 2.</h1>
+        <h2>Lista podzielona na grupy opcji</h2>
+        <label for="ageandgender">Lista podzielona na grupy opcji</label>
+        <br>
+        <select id="ageandgender" name="ageandgender" size="8">
+            <optgroup label="Dziewczęta">
+                <option value="K12-14">12-14 lat</option>
+                <option value="K15-17">15-17 lat</option>
+                <option value="K18+">powyżej 18 lat</option>
+            </optgroup>
+            <optgroup label="Chłopcy">
+                <option value="M12-14">12-14 lat</option>
+                <option value="M15-17">15-17 lat</option>
+                <option value="M18+">powyżej 18 lat</option>
+            </optgroup>
+        </select>
+        <br>
+        <hr>
+
+        <h1>Zadanie 3.</h1>
+        <h2>Lista podpowiedzi</h2>
+        <label for="carbrand">Wybierz markę samochodu: </label>
+        <br>
+        <input type="text" name="car" list="carbrand"></input>
+        <br>
+        <datalist id="carbrand" name="carbrand" size="6">
+            <option value="Opel">Opel</option>
+            <option value="Skoda">Škoda</option>
+            <option value="Tesla">Tesla</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Ferrari">Ferrari</option>
+        </datalist>
+        <br>
+        <hr>
+
+        <h1>Zadanie 4.</h1>
+        <h2>Grupowanie pola formularza</h2>
+        <fieldset style="width: 256px;">
+        <label for="login">Formularz logowania</label>
+        <br>
+        <label for="login">Podaj login</label>
+        <input type="text"></input>
+        <br>
+        <label for="password">Podaj hasło</label>
+        <input type="text"></input>
+        <br>
+        <button type="submit">Zaloguj</button>
+        </fieldset>
+        <br>
+        <hr>
+
+        <h1>Zadanie 5.</h1>
+        <h2>Nieaktywne pola formularza</h2>
+        <p>Przycisk aktywny</p>
+        <button>Prześlij dane</button>
+        <p>Przycisk nieaktywny</p>
+        <button disabled>Prześlij dane</button>
+    </body>
+</html>
