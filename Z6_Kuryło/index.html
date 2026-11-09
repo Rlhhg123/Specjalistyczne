@@ -49,7 +49,7 @@
         <h2>Lista podpowiedzi</h2>
         <label for="carbrand">Wybierz markę samochodu: </label>
         <br>
-        <input type="text" name="car" list="carbrand"></input>
+        <input type="text" name="car" list="carbrand">
         <br>
         <datalist id="carbrand" name="carbrand" size="6">
             <option value="Opel">Opel</option>
@@ -68,10 +68,10 @@
         <label for="login">Formularz logowania</label>
         <br>
         <label for="login">Podaj login</label>
-        <input type="text"></input>
+        <input type="text">
         <br>
         <label for="password">Podaj hasło</label>
-        <input type="text"></input>
+        <input type="text">
         <br>
         <button type="submit">Zaloguj</button>
         </fieldset>
@@ -84,5 +84,17 @@
         <button>Prześlij dane</button>
         <p>Przycisk nieaktywny</p>
         <button disabled>Prześlij dane</button>
+        <br>
+        <hr>
+
+        <h1>Zadanie 6.</h1>
+        <h2>Klawisze skrótów</h2>
+        <label for="shortcuts" type="radio"></label>
+        <input type="radio" value="Podstawowe" name="grupa opcji" accesskey="P">Podstawowe [skrót Alt+P]
+        <br>
+        <input type="radio" value="Srednie" name="grupa opcji" accesskey="S">Średnie [skrót Alt+S]
+        <br>
+        <input type="radio" value="Wysokie" name="grupa opcji" accesskey="W">Wysokie [skrót Alt+W]
+        <br>
     </body>
 </html>
