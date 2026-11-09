@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Formularz Kuryło">
+    <meta name="description" content="Strona z formularzem">
+    <meta name="keywords" content="formularz, dane">
+    <meta name="creation_date" content="02.11.2026">
+    <meta name="author" content="Paweł Kuryło">
+    <link rel="icon" href="ikona_PK.png" type="image/png">
+    <title>Szachownica Kuryło</title>
+</head>
+
+<body>
+    <label for="name">Imię</label>
+    <br>
+    <input type="text" id="imie" name="imie" required>
+    <br>
+
+    <label for="surname">Nazwisko</label>
+    <br>
+    <input type="text" id="nazwisko" name="nazwisko" required>
+    <br>
+
+    <label>Płeć</label>
+    <br>
+    <label type="radio" id="gender" name="gender">
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Kobieta</label>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Mężczyzna</label>
+    </label>
+    <br>
+
+    <label for="age">Wiek</label>
+    <select id="age" name="age">
+        <option value="0-17">0-17</option>
+        <option value="18-25">18-25</option>
+        <option value="25-39">25-39</option>
+    </select>
+    <br>
+
+    <label for="notes">Uwagi</label>
+    <br>
+    <textarea id="notes" name="notes" rows="4" cols="32">Wpisz uwagi</textarea>
+    <br>
+
+    <button type="button">Wyślij</button>
+</body>
